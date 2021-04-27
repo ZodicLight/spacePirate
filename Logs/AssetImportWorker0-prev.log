@@ -1,0 +1,124 @@
+Using pre-set license
+Built from '2020.3/release' branch; Version is '2020.3.1f1 (77a89f25062f) revision 7841951'; Using compiler version '192528614'; Build Type 'Release'
+OS: 'Windows 7  (6.1.0) 64bit' Language: 'en' Physical Memory: 7879 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 0
+
+ COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2020.3.1f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+C:/Users/black/Downloads/Weapon Partial implementation/IGB100 Cycle 2
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+50376
+Successfully changed project path to: C:/Users/black/Downloads/Weapon Partial implementation/IGB100 Cycle 2
+C:/Users/black/Downloads/Weapon Partial implementation/IGB100 Cycle 2
+Using Asset Import Pipeline V2.
+Refreshing native plugins compatible for Editor in 116.73 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2020.3.1f1 (77a89f25062f)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2020.3.1f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/black/Downloads/Weapon Partial implementation/IGB100 Cycle 2/Assets
+GfxDevice: creating device client; threaded=0
+d3d11: CreateDXGIFactory2(...) not found, fallbacking to CreateDXGIFactory1(...).
+d3d11: QueryInterface(IDXGIFactory5) failed (80004002).
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.0]
+    Renderer: Intel(R) HD Graphics Family (ID=0xa16)
+    Vendor:   
+    VRAM:     1632 MB
+    Driver:   10.18.10.3496
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2020.3.1f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2020.3.1f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2020.3.1f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56040
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.1f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.001615 seconds.
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 81.90 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.498 seconds
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.002315 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.67 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.655 seconds
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.09 seconds
+Refreshing native plugins compatible for Editor in 1.79 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1506 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 82.5 MB.
+System memory in use after: 82.6 MB.
+
+Unloading 33 unused Assets to reduce memory usage. Loaded Objects now: 1956.
+Total: 29.580616 ms (FindLiveObjects: 0.539509 ms CreateObjectMapping: 0.259714 ms MarkObjects: 28.558271 ms  DeleteObjects: 0.219106 ms)
+
+========================================================================
+Received Import Request.
+  path: Assets/FPS.unity
+  artifactKey: Guid(d52a32a4454c77148bb675f5ff3cc3f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FPS.unity using Guid(d52a32a4454c77148bb675f5ff3cc3f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f4cf379eba156e21a2217d6d58788f19') in 0.068412 seconds
+  Import took 0.075307 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.915498 seconds.
+  path: Assets/current game implementation.unity
+  artifactKey: Guid(85b9ee9aa25006948af509b2cb9d4f01) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/current game implementation.unity using Guid(85b9ee9aa25006948af509b2cb9d4f01) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f67a6d7675b34667c487605e89ba315b') in 0.007970 seconds
+  Import took 0.012179 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003705 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.66 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.412 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.25 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1487 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 81.3 MB.
+System memory in use after: 81.4 MB.
+
+Unloading 24 unused Assets to reduce memory usage. Loaded Objects now: 1959.
+Total: 5.968066 ms (FindLiveObjects: 0.442228 ms CreateObjectMapping: 0.218660 ms MarkObjects: 5.261216 ms  DeleteObjects: 0.042839 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 122.141432 seconds.
+  path: Assets/Models/AttackBot
+  artifactKey: Guid(da046d1c859f73645874363e0f79ddbc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/AttackBot using Guid(da046d1c859f73645874363e0f79ddbc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a4b5bd0f72d473fe5761e10c01ad26d5') in 0.014612 seconds
+  Import took 0.018989 seconds .
+
+AssetImportWorkerClient::OnTransportError - code=2 error=End of file
