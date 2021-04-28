@@ -17,6 +17,7 @@ public class Weapon : MonoBehaviour
     public GameObject bulletHit;
     public GameObject muzzle;
     public GameObject target;
+    public GameObject bullet;
 
     //Audio
     public GameObject fireSound;
@@ -43,6 +44,7 @@ public class Weapon : MonoBehaviour
             Instantiate(fireSound, transform.position, transform.rotation);
             Instantiate(muzzleFlash, muzzle.transform.position, muzzle.transform.rotation);
             animation.Play("fire");
+            Instantiate(bullet, muzzle.transform.position, muzzle.transform.rotation);
 
             //Raycast projectile
             RaycastHit hit;
