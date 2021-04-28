@@ -6,6 +6,7 @@ using UnityEngine.UI;
 public class Player : MonoBehaviour {
 
     public float health = 100;
+    public GameObject youDie;
     private float maxHealth;
 
     public GameObject mainCamera;
@@ -31,6 +32,7 @@ public class Player : MonoBehaviour {
 
         if (health <= 0) {
             mainCamera.SetActive(true);
+            youDie.SetActive(true);
             Destroy(this.gameObject);
         }
     }

@@ -9,7 +9,7 @@ public class Enemy : MonoBehaviour {
 
     public float health = 100;
 
-    public GameObject target;//acquistion of the player target
+    private GameObject target;//acquistion of the player target
 
     private float damage = 25;
     private float damageTime;

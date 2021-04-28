@@ -28,6 +28,11 @@ public class GameManager : MonoBehaviour {
             Destroy(gameObject);
     }
 
+    public void EndGame()//public is important 
+    {
+
+    }
+
     // Use this for initialization
     void Start () {
         player = GameObject.FindGameObjectWithTag("Player");
@@ -39,4 +44,6 @@ public class GameManager : MonoBehaviour {
         time += Time.deltaTime;
         //time = Time.time;//what is this about?
 	}
+
+    
 }
